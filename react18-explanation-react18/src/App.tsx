@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { AutoBatchEventHandler } from './components/AutoBatchEventHandler';
 import { AutoBatchOther } from './components/AutoBatchOther';
 import { Transition } from './components/Transition';
+import { ReactQuery } from './components/ReactQuery';
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,8 @@ function App() {
       <AutoBatchOther/>
       <hr />
       <Transition/>
+      <hr />
+      <ReactQuery/>
     </div>
   );
 }
